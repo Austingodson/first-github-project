@@ -1,0 +1,21 @@
+button {
+    background: none;
+    border: 0;
+    position: relative;
+}
+
+button:after{
+    content: '';
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #FFAB9D;
+
+    position: absolute;
+    top: -50%;
+    left: -10px;
+
+    opacity: 0.3;
+    z-index: -1;
+}
